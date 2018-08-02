@@ -1,0 +1,129 @@
+
+/** page structure **/
+
+
+.tabsbar
+{
+	
+	margin-top:10px;
+	border-radius-top:3px;
+		
+}
+
+.tabsbar li a
+{
+	
+	font-family: 'Merriweather', serif;
+	font-size:1.1em;
+	color:#5f768e;
+	text-align: center;
+}
+
+.tabsbar li #lunches:hover
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+.tabsbar li #dinners:hover
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+
+.tabsbar li #sunday-bank-hols:hover
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+.tabsbar li #childrens:hover
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+.tabsbar li #drinks:hover
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+.tabsbar li #takeways:hover
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+
+ul {
+    margin-left: 24px;
+    line-height: 1.75;
+		margin-bottom: 24px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+
+.nav-pills>li.active>#lunches, .nav-pills>li.active>#lunches:hover, .nav-pills>li.active>#lunches:focus 
+{
+background-color:#5f768e;
+	color:white;
+}
+
+.nav-pills>li.active>#dinners, .nav-pills>li.active>#dinners:hover, .nav-pills>li.active>#dinners:focus 
+{
+	background-color:#5f768e;
+	color:white;
+}	
+
+.nav-pills>li.active>#sunday-bank-hols, .nav-pills>li.active>#sunday-bank-hols:hover, .nav-pills>li.active>#sunday-bank-hols:focus 
+{
+	background-color:#5f768e;
+	color:white;
+}	
+
+.nav-pills>li.active>#childrens, .nav-pills>li.active>#childrens:hover, .nav-pills>li.active>#childrens:focus 
+{
+	background-color:#5f768e;
+	color:white;
+}	
+
+.nav-pills>li.active>#drinks, .nav-pills>li.active>#drinks:hover, .nav-pills>li.active>#drinks:focus 
+{
+	background-color:#5f768e;
+	color:white;
+}
+
+.nav-pills>li.active>#takeways, .nav-pills>li.active>#takeways:hover, .nav-pills>li.active>#takeways:focus 
+{
+	background-color:#5f768e;
+	color:white;
+}	
+
+@media(max-width: 420px){
+	.infolist{font-size: 1.5em;}
+}
+
+.menu-header {
+	font-family:garamond-premier-pro-display,Georgia,Times New Roman,Times,serif;
+	font-style: italic;
+	font-size: 23px;
+	color: #5f768e;
+}
+
+.sub-menu-header {
+	font-family:garamond-premier-pro-display,Georgia,Times New Roman,Times,serif;
+	font-style: bold;
+	font-size: 20px;
+	color: #5f768e;
+}
